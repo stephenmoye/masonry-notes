@@ -3,6 +3,8 @@
 Setup Wizard
 Upon downloading the boilerplate the setup wizard will run automatically to allow you to install optional libraries. To run the wizard manually:
 
+https://docs.staticsiteboilerplate.com/getting-started/commands
+
 npm run setup
 
 Development Server

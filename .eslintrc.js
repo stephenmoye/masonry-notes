@@ -6,5 +6,8 @@ module.exports = {
   },
   rules: {
     quotes: "off",
+    "no-console": "off",
+    "func-names": "off",
+    "comma-dangle": "off",
   },
 };
