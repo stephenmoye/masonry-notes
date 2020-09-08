@@ -9,5 +9,6 @@ module.exports = {
     "no-console": "off",
     "func-names": "off",
     "comma-dangle": "off",
+    "operator-linebreak": "off",
   },
 };
