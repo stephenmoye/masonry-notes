@@ -1,4 +1,5 @@
 module.exports = {
+  extends: "prettier",
   extends: "airbnb-base",
   env: {
     browser: true,
@@ -10,5 +11,10 @@ module.exports = {
     "func-names": "off",
     "comma-dangle": "off",
     "operator-linebreak": "off",
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      modules: true,
+    },
   },
 };

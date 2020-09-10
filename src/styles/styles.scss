@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
@@ -23,7 +24,7 @@ nav {
   .note {
     width: 100%;
     min-width: 150px;
-    min-height: 300px;
+    min-height: 250px;
     background: #6495ed;
     color: white;
     padding: 1rem;
@@ -41,6 +42,13 @@ nav {
 
       &:hover {
         background: #6494edbe;
+      }
+    }
+
+    .div {
+
+      &:focus {
+        outline: none;
       }
     }
 
