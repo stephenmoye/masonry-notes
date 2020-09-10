@@ -1,3 +1,5 @@
+import data from "./data";
+
 export default function () {
   const addNote = document.querySelector(".note-add");
   const noteTitle = document.querySelector(".title");
@@ -7,6 +9,7 @@ export default function () {
   noteText.innerHTML = localStorage.text || "Note Text";
 
   const addNewNote = function () {
+    data();
     addNote.insertAdjacentHTML(
       "beforebegin",
       '<div class="note"><div contenteditable="true" class="title">Title</div><div contenteditable="true" class="text">Text</div></div>'

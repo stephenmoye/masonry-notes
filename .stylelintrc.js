@@ -6,6 +6,5 @@ module.exports = {
     "scss/at-rule-no-unknown": true,
     "no-descending-specificity": null,
     "declaration-empty-line-before": "never",
-    "rule-empty-line-before": "always",
   },
 };

@@ -1,3 +1,3 @@
-import notes from "./notes";
+import Notes from "./notes";
 
-notes();
+Notes();
